@@ -1,0 +1,42 @@
+.focus {
+    transition: transform 0.3s;
+}
+  
+.focus:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.image-style {
+    width: 3em;
+    float: right;
+}
+
+.img-desc {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-details-b {
+    font-size: 3em;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.text-desc-style {
+    font-size: 1em;
+}
+
+.text-stack-style {
+    font-size: 0.9em;
+}
+
+
+ 
+  

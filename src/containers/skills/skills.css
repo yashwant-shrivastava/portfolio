@@ -1,0 +1,17 @@
+.skills {
+    background-color: cornflowerblue;
+    overflow-x: hidden;
+}
+
+.display-cards {
+    width: 100vw;
+    margin: 20px;
+}
+
+.font-details-b {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.skills-background {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(230,230,235,1) 0%, rgba(154,181,223,1) 100%); }

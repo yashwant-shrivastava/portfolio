@@ -1,0 +1,26 @@
+.about {
+    background-color: transparent;
+    font-size: 1.1em;
+  }
+  
+  .profile {
+    max-width: 18em;
+  }
+  
+  .my-details {
+    background-color: rgba(255, 255, 255, 0.747);
+  }
+
+  .info {
+      font-size: medium;
+      font-family: sans-serif;
+  }
+
+.about-section {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,113,175,1) 0%, rgba(182,215,146,1) 100%); 
+}
+  
+.about-background {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(230,230,235,1) 0%, rgba(225,241,207,1) 100%); 
+}

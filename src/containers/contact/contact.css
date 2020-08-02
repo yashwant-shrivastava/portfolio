@@ -1,0 +1,33 @@
+.contact-form {
+    color: cornsilk;
+    text-align: left;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,113,175,1) 0%, rgba(182,215,146,1) 100%); }
+
+.from-details-b {
+    font-size: 3em;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.contact-image {
+    width: 4em;
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.contact-details {
+    justify-content: center;
+    display: grid;
+    align-content: center;
+    margin: 50px;
+    padding: 10px;
+    list-style: none;
+}
+
+a {
+    color: cornsilk;
+}
+
+.contact-background {
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(218,245,206,1) 0%, rgba(192,180,221,1) 100%); 
+}
