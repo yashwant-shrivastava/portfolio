@@ -6,8 +6,8 @@ import Aux from "../../containers/Hoc/hoc";
 const Cards = (props) => {
     const projects = props.projects;
 
-    const projectDetails = projects.map((ele) =>
-        <Tilt options={{ max: 25 }} className="tilt-style">
+    const projectDetails = projects.map((ele, index) =>
+        <Tilt options={{ max: 25 }} className="tilt-style" key={index}>
             <Card>
                 <Card.Body className="d-flex justify-content-center flex-column">
                     <Card.Title className="text-center">{ele.title}</Card.Title>

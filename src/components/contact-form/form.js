@@ -32,11 +32,13 @@ class ContactForm extends Component {
             data,
             headers
             ).then((result) => {
-                alert(name + ", Thanks for you message. I will contact you soon!!!");
+                console.log(result);
           }).catch(function (error) {
             console.log(error);
             alert('Please check your network connection');
         });
+
+        alert(name + ", Thanks for you message. I will contact you soon!!!");
 
         e.target.reset();
         this.setState({

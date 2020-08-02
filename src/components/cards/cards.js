@@ -10,8 +10,8 @@ const Cards = (props) => {
     const title = props.details.title;
     const details = props.details.value;
 
-    const cardText = details.map((ele) => 
-        <span className="p-2">
+    const cardText = details.map((ele, index) =>
+        <span className="p-2" key={index}>
                 <Row>
                     <Col md={6}>
                         <Image src={ele.image} alt={ele.description} rounded className="image-style m-1"></Image>
@@ -19,7 +19,6 @@ const Cards = (props) => {
                     <Col md={3} className="img-desc">
                         {ele.description}
                     </Col>
-                    
                 </Row>
         </span>
     );
@@ -29,9 +28,9 @@ const Cards = (props) => {
               <Card.Body>
                 <Card.Title className="text-center  card-title"> {title} </Card.Title>
                 <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
+                <div className="card-text d-flex justify-content-start flex-column">
                     {cardText}
-                </Card.Text>
+                </div>
               </Card.Body>
             </Card>
     );

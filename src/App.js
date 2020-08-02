@@ -9,6 +9,9 @@ import Experience from './containers/experience/experience';
 import Projects from "./containers/projects/projects";
 import Contact from "./containers/contact/contact";
 import Footer from "./components/footer/footer";
+import particleOptions from './components/particle-background/particle';
+import Particles from "react-particles-js";
+
 
 class App extends Component {
   render() {
@@ -16,6 +19,7 @@ class App extends Component {
           <div className="App">
             <MyNavBar/>
             <Home/>
+            <Particles className="particles particles-box" params={particleOptions} />
             <Title/>
             <About/>
             <Skills/>

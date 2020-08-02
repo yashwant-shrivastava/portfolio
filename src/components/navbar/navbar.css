@@ -25,3 +25,9 @@
 .mr-auto {
     color: white;
 }
+
+.nav-button {
+    padding: 2px;
+    margin: 5px;
+    cursor: pointer;
+}

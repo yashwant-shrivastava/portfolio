@@ -18,24 +18,12 @@ const MyNavbar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link >
-              <Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}> Home </Link>
-                </Nav.Link>
-              <Nav.Link >
-              <Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}> About </Link>
-              </Nav.Link>
-              <Nav.Link>
-              <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-70} duration={500}> Skills </Link>
-              </Nav.Link>
-              <Nav.Link >
-              <Link activeClass="active" to="experience" spy={true} smooth={true} offset={-70} duration={500}> Experience </Link>
-              </Nav.Link>
-              <Nav.Link>
-              <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}> Projects </Link>
-                </Nav.Link>
-              <Nav.Link>
-              <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}> Contact </Link>
-              </Nav.Link>
+              <Link className="nav-button" activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}> Home </Link>
+              <Link className="nav-button" activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}> About </Link>
+              <Link className="nav-button" activeClass="active" to="skills" spy={true} smooth={true} offset={-70} duration={500}> Skills </Link>
+              <Link className="nav-button" activeClass="active" to="experience" spy={true} smooth={true} offset={-70} duration={500}> Experience </Link>
+              <Link className="nav-button" activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}> Projects </Link>
+              <Link className="nav-button" activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}> Contact </Link>
             </Nav>
           </Navbar.Collapse>
         </div>
