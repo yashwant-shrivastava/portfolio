@@ -10,7 +10,7 @@ const MyNavbar = () => {
     <div>
       <Navbar fixed="top" bg="dark" variant="dark" expand="md" className="animate-navbar nav-theme justify-content-between">
         <div>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="https://yashwant-shrivastava.github.io/portfolio/">
             <img className="logo" src={Logo} alt="logo" />
           </Navbar.Brand>
         </div>

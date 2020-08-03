@@ -22,7 +22,7 @@ const About = () => {
               <Col xs={12} md={6} className="justify-content info">
                   Hi there! I am <strong>&nbsp;Yashwant Shrivastava</strong>
                   <br />
-                  A passionate software programmer and a coder, born and brought up in India. I am a Full Stack Web Developer with React.js, Flask, PHP, Node.js, SQL, and NoSQL as my tech stack.
+                  A passionate software programmer, learner and a coder, born and brought up in India. I am a Full Stack Web Developer with React.js, Flask, PHP, Node.js, MySQL, and MongoDB as my tech stack.
                   <br />
                   In 2020, I successfully completed my Engineering with specialization in 'Computer Science and Engineering from NIT Bhopal'.
                   <br />
