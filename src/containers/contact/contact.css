@@ -15,6 +15,21 @@
     font-size: 1.5em;
 }
 
+@media screen and (max-width: 600px) {
+    .contact-image {
+        width: 2em;
+    }
+
+    .contact-container {
+        display: flex;
+    }
+
+    .email {
+        top: 15px;
+        position: relative;
+    }
+}
+
 .contact-details {
     justify-content: center;
     display: grid;

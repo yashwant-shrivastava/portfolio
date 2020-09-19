@@ -24,10 +24,10 @@ const Contact = () => {
                                 <strong> +91 7389876501 </strong>
                                 <hr/>
                             </li>
-                            <li>
+                            <li className="contact-container">
                                 <Image className="contact-image" src={L_EMAIL} alt="email"/>
                                 <strong> 
-                                    <a href="mailto: yash14shrivastava@gmail.com">yash14shrivastava@gmail.com</a>
+                                    <a className="email" href="mailto: yash14shrivastava@gmail.com">yash14shrivastava@gmail.com</a>
                                 </strong>
                             </li>
 

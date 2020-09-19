@@ -37,6 +37,19 @@
     font-size: 0.9em;
 }
 
-
- 
+@media screen and (max-width: 600px) {
+    .card-title {
+        font-size: larger;
+    }
+    .card-body {
+        margin: 20px;
+        padding: 3em;
+    }
+    .image-style {
+        float: unset !important;
+    }
+    .focus {
+        padding: 20px;
+    }
+}
   

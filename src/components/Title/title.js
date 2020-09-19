@@ -10,10 +10,6 @@ const MyTitleMessage = styled.h1`
   margin-top: -125px;
   text-align: center;
 
-  strong {
-    font-size: 1.25em;
-  }
-
   div {
     color: #66fcf1;
 
@@ -37,7 +33,7 @@ const TitleMessage = () => (
   <MyTitleMessage>
     <div className="titleMessage">
       <div className="heading">
-        <div className="main text-center mb-3">
+        <div className="main text-center mb-3 title">
           Hi, I am
           <br />
           <span>

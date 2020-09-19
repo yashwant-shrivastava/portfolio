@@ -27,7 +27,7 @@ import "../skills/skills.css";
 const Skills = () => {
 
     const frontEnd = {
-        title: 'Frontend',
+        title: 'FRONTEND',
         value: [
             {
                 image: L_HTML,
@@ -57,7 +57,7 @@ const Skills = () => {
     };
 
     const backEnd = {
-        title: 'Backend',
+        title: 'BACKEND',
         value: [
             {
                 image: L_PHP,

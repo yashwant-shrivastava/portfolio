@@ -1,26 +1,30 @@
 .logo {
     width: 25%;
     float: left;
-  }
-  
-  .nav-theme {
+}
+
+.nav-theme {
     background-color: #101018f8;
     font-size: 20px;
-  }
+}
   
-  .animate-navbar {
+.animate-navbar {
     box-shadow: 1px 1px 1px #222;
     animation: moveDown 0.5s ease-in-out;
-  }
+}
   
-  @keyframes moveDown {
+@keyframes moveDown {
     from {
       transform: translateY(-5rem);
     }
     to {
       transform: translateY(0rem);
     }
-  }
+}
+
+.navbar-items {
+    float: right;
+}
 
 .mr-auto {
     color: white;
@@ -30,4 +34,10 @@
     padding: 2px;
     margin: 5px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .myLogo {
+        display: none;
+    }
 }
